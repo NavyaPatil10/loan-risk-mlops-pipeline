@@ -9,7 +9,8 @@ __pycache__/
 data/* 
 !data/**/*.dvc
 .dvc/cache/
-dvc.lock
+*.lock
+!dvc.lock
 
 # MLflow
 mlruns/
