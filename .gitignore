@@ -1,0 +1,26 @@
+# Virtual environment
+api/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# DVC
+data/
+.dvc/cache/
+dvc.lock
+
+# MLflow
+mlruns/
+
+# Secrets
+.env
+
+# Outputs
+models/
+reports/
+
+# VSCode and OS junk
+.vscode/
+.DS_Store
+Thumbs.db
